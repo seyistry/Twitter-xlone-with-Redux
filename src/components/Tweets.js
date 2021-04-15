@@ -65,7 +65,9 @@ class Tweet extends Component {
                         <p>{text}</p>
                     </div>
                     <div className="tweet-icons">
-                        <TiArrowBackOutline className="tweet-icon" />
+                        <span>
+                            <TiArrowBackOutline className="tweet-icon" />
+                        </span>
                         <span>{replies !== 0 && replies}</span>
                         <button
                             className="heart-button"
